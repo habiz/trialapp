@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/clicker"
+        android:clickable="true"
+        android:background="?attr/selectableItemBackground"
+        android:focusable="true"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:background="@drawable/faded_color_primary_dot"
+            android:id="@+id/thumb"
+            android:src="@drawable/infusion"
+            android:padding="10dp"
+            android:layout_margin="20dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
+            android:paddingTop="5dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="100">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="45">
+                    <co.treplabs.realdrip.views.TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:textColor="@color/very_dark_harsh"
+                        android:text="Drip Volume"
+                        android:layout_marginTop="15dp"/>
+                    <co.treplabs.realdrip.views.NormalTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:text="0ml"
+                        android:textSize="20sp"
+                        android:id="@+id/name"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="55">
+                    <co.treplabs.realdrip.views.TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:textColor="@color/very_dark_harsh"
+                        android:text="Flow rate"
+                        android:layout_marginTop="15dp"/>
+                    <co.treplabs.realdrip.views.NormalTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:text="0 ml/hr"
+                        android:textSize="20sp"
+                        android:id="@+id/disease" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="100">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="45">
+                    <co.treplabs.realdrip.views.TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:textColor="@color/very_dark_harsh"
+                        android:text="Drip percent"
+                        android:layout_marginTop="10dp"/>
+                    <co.treplabs.realdrip.views.NormalTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/almost_balck"
+                        android:text="0%"
+                        android:textSize="18sp"
+                        android:id="@+id/volume" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="55">
+                    <co.treplabs.realdrip.views.TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:textColor="@color/very_dark_harsh"
+                        android:text="Ward"
+                        android:layout_marginTop="10dp"/>
+                    <co.treplabs.realdrip.views.NormalTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/almost_balck"
+                        android:text="Surgical"
+                        android:textSize="18sp"
+                        android:id="@+id/flowrate" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#1000" />
+
+</LinearLayout>

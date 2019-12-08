@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00A797</color>
+    <color name="fadedColorPrimary">#9AE7E0</color>
+    <color name="fadedColorPrimarySplash">#C1E9E4</color>
+    <color name="darkFadedColorPrimary">#89C7C0</color>
+    <color name="mediumDarkFadedColorPrimary">#74ACA5</color>
+    <color name="colorPrimaryDark">#008073</color>
+    <color name="colorAccent">#00A797</color>
+
+    <color name="dark_harsh">#7000</color>
+    <color name="very_dark_harsh">#9000</color>
+    <color name="almost_balck">#d000</color>
+
+    <color name="greyish">#5000</color>
+    <color name="pale_red">#FA6565</color>
+    <color name="faded_pale_red">#F7C4C4</color>
+    <color name="pale_blue">#6B7FE1</color>
+    <color name="faded_pale_blue">#cc6B7FE1</color>
+    <color name="pale_green">#4FCE4F</color>
+    <color name="faded_pale_green">#C2E2C2</color>
+    <color name="super_faded_pale_green">#D8F0D8</color>
+</resources>
